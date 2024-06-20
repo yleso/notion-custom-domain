@@ -128,6 +128,10 @@ const customStyle = `
   .notion-topbar>div>div:nth-last-child(3) { 
     display:none !important; 
   }
+
+  .notion-topbar-mobile > div:not(:first-child) {
+    display: none !important;
+  }
 `;
 
 function getCustomScript() {

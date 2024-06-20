@@ -132,6 +132,14 @@ const customStyle = `
   .notion-topbar-mobile > div:not(:first-child) {
     display: none !important;
   }
+
+  
+  body.dark img[src*="CZYourself_logo"],
+  body.dark img[src*="BFfi"],
+  body.dark img[src*="_black"]
+  {
+    filter: invert(1) !important;
+  }
 `;
 
 function getCustomScript() {
